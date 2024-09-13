@@ -65,4 +65,32 @@ const Container = styled.div`
       white-space: nowrap;
     }
   }
+
+  @media (max-width: 768px) {
+    .content {
+      h1 {
+        font-size: 64px;
+      }
+
+      button {
+        font-size: 14px;
+        padding: 8px 16px;
+        min-width: 180px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .content {
+      h1 {
+        font-size: 48px;
+      }
+
+      button {
+        font-size: 12px;
+        padding: 6px 14px;
+        min-width: 150px;
+      }
+    }
+  }
 `;
