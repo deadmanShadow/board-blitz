@@ -55,4 +55,36 @@ const RulesContainer = styled.div`
       font-size: 18px;
     }
   }
+
+  @media (max-width: 768px) {
+    padding: 16px;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .text {
+      p {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 12px;
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .text {
+      p {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+    }
+  }
 `;
