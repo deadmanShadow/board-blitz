@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import { motion } from "framer-motion";
+import styled from "styled-components";
 
 const NumberSelector = ({
   setError,
@@ -75,6 +75,29 @@ const NumberSelectorContainer = styled.div`
   .error {
     color: red;
   }
+
+  @media (max-width: 768px) {
+    align-items: center;
+
+    .flex {
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .flex {
+      gap: 10px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
 `;
 
 const Box = styled.div`
@@ -87,4 +110,16 @@ const Box = styled.div`
   font-weight: 700;
   background-color: ${(props) => (props.isSelected ? "black" : "white")};
   color: ${(props) => (!props.isSelected ? "black" : "white")};
+
+  @media (max-width: 768px) {
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 480px) {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
 `;
