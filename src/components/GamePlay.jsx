@@ -106,4 +106,36 @@ const MainContainer = styled(motion.main)`
     justify-content: center;
     gap: 10px;
   }
+
+  @media (max-width: 768px) {
+    padding-top: 50px;
+
+    .top_section {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .btns {
+      flex-direction: row;
+      gap: 5px;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding-top: 30px;
+
+    .top_section {
+      gap: 15px;
+    }
+
+    .btns {
+      margin-top: 20px;
+      gap: 5px;
+      flex-direction: column;
+    }
+  }
 `;
