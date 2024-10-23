@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import { motion } from "framer-motion";
+import styled from "styled-components";
 
 const RoleDice = ({ roleDice, currentDice }) => {
   const imagePath = `/dices/dice_${currentDice}.png`; 
@@ -25,7 +25,7 @@ const RoleDice = ({ roleDice, currentDice }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
       >
-        Click on Dice to roll
+        Click on Board to roll
       </motion.p>
     </DiceContainer>
   );

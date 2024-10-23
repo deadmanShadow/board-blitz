@@ -14,7 +14,7 @@ const Rules = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        How to play dice game
+        How to play Board game
       </motion.h2>
       <motion.div
         className="text"
@@ -23,7 +23,7 @@ const Rules = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <p>Select any number</p>
-        <p>Click on dice image</p>
+        <p>Click on Board image</p>
         <p>
           After clicking on the dice, if the selected number matches the dice number,
           you will get the same number of points as the dice.
