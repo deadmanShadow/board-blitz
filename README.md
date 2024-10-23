@@ -1,6 +1,6 @@
-# Dice Game 🎲
+# Board Blitz 🎲
 
-Welcome to the Dice Game! This interactive game challenges you to select a number and roll a dice to test your luck. Enjoy the fun and try to score high!
+Welcome to the Board Blitz! This interactive game challenges you to select a number and roll a dice to test your luck. Enjoy the fun and try to score high!
 
 ## Technologies Used
 
@@ -22,6 +22,6 @@ To get started with the Dice Game, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/deadmanShadow/dice-game.git
+   git clone https://github.com/deadmanShadow/board-blitz
    cd dice-game
    ```
